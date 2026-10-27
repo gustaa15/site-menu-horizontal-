@@ -1,0 +1,44 @@
+.fundo-cinza{
+    background-color: #333333;
+}
+.topo{
+    padding: 20px; /*margem interna*/
+    color: #d1d1d1; /* cor da fonte*/
+    font-family: 'Courier New', Courier, monospace; /**/
+    text-align: center;/**/
+    font-size: 1.2em; /* tamanho da fonte*/
+}
+
+.letra-logo{
+    color: aquamarine;
+}
+
+.topo-fluido{
+    border-top: 1px solid #4e4e4e;/* borda superior*/
+}
+
+.menu{
+    display: flex; /*alinha os itens na horizontal*/
+    gap: 5px; /* espaço entre os elementos*/
+}
+/* altera todas as tags <li> que estiverem dentro da classe .menu*/
+.menu li{
+    flex-grow: 1; /* aumentar a largura do elemento*/
+    list-style: none;
+    /*border: 1px solid white;*/
+    text-align: center;
+}
+
+/* altera a taga <a> que esta dentro do li que esta dentro do menu*/
+.menu li a{
+    color: #ffffff;
+    text-decoration: none; /*remove o sublinhadeo do link*/
+    padding: 5px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(146, 205, 251);
+    color: #333333;
+    transition: 0.5s;
+}
